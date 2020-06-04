@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "コンパイル",
+      "setup": "",
+      "run": "make all",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "kadai4-3 の実行結果",
+      "setup": "",
+      "run": "./kadai4-3",
+      "input": "",
+      "output": "a + b は 0 です。",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "kadai4-4 の実行結果",
+      "setup": "",
+      "run": "./kadai4-4",
+      "input": "",
+      "output": "2147483647",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "kadai4-5 の実行結果",
+      "setup": "",
+      "run": "./kadai4-5",
+      "input": "",
+      "output": "9223372036854775807",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "kadai4-7 の実行結果",
+      "setup": "",
+      "run": "./kadai4-7",
+      "input": "",
+      "output": "20922789888000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
