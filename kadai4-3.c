@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    short a, b, c;
+    int a, b, c;
     a = 39;
     b = 65497;
     c = a + b;
