@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c;
+    short a, b, c;
     a = 39;
-    b = 65497;
+    b = 65536-a;
     c = a + b;
     printf("a + b は %d です。\n", c);
 }
