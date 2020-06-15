@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-int main() {
-    long i = 1;
-    printf("%ld\n", i)
-}
+int main(){
+    long a=1,b=1;
     while(1){
-        if(i<0){
-            break;
-        }
-        i*=2;
+        a*=2;
+        if(a>0) b=a;
+        else break;
     }
-    printf("%ld\n",i-1);
+    a=2*b-2;
+    while(1){
+        a++;
+        if(a>0) b=a;
+        else break;
+    }
+    printf("%ld\n",b);
+    return 0;
 }
