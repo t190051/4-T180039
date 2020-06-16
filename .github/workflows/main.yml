@@ -1,8 +1,6 @@
 name: LaTeX to PDF
 
-on:
-  push:
-    paths: main.tex
+on: push
 
 jobs:
   build:
